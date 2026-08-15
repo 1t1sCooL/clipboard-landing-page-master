@@ -1,0 +1,22 @@
+<section class="workflow">
+  <h2>Supercharge your workflow</h2>
+  <p class="section-lead">We&rsquo;ve got the tools to boost your productivity.</p>
+
+  <ul class="workflow__tools">
+    @for (t of tools; track t.title) {
+      <li>
+        <img [src]="t.icon" [alt]="''" class="workflow__icon" />
+        <h3>{{ t.title }}</h3>
+        <p>{{ t.text }}</p>
+      </li>
+    }
+  </ul>
+
+  <ul class="workflow__brands">
+    @for (b of brands; track b.name) {
+      <li>
+        <img [src]="b.logo" [alt]="b.name" [width]="b.width" [height]="b.height" />
+      </li>
+    }
+  </ul>
+</section>

@@ -1,0 +1,26 @@
+<section class="snippets">
+  <h2>Keep track of your snippets</h2>
+  <p class="section-lead">
+    Clipboard instantly stores any item you copy in the cloud, meaning you can
+    access your snippets immediately on all your devices. Our Mac and iOS apps
+    will help you organize everything.
+  </p>
+
+  <div class="snippets__split">
+    <img
+      class="snippets__image"
+      src="images/image-computer.png"
+      alt="Clipboard on an iMac"
+      width="752"
+      height="572"
+    />
+    <ul class="snippets__features">
+      @for (f of features; track f.title) {
+        <li>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
