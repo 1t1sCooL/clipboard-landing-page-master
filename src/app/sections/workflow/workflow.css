@@ -1,0 +1,79 @@
+.workflow {
+  padding-top: 63px;
+  text-align: center;
+}
+
+.workflow h2 {
+  font-size: 36px;
+  letter-spacing: -0.4px;
+}
+
+.workflow__tools {
+  margin: 96px auto 0;
+  max-width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-inline: 24px;
+}
+
+.workflow__icon {
+  margin: 0 auto;
+  height: 40px;
+  width: auto;
+}
+
+.workflow__tools h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.workflow__tools p {
+  margin: 18px auto 0;
+  max-width: 350px;
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--Gray-500);
+}
+
+.workflow__brands {
+  margin: 130px auto 0;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 24px;
+}
+
+@media (max-width: 1023px) {
+  .workflow__tools {
+    grid-template-columns: 1fr;
+    gap: 41px;
+  }
+
+  .workflow__brands {
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workflow {
+    padding-top: 120px;
+  }
+
+  .workflow h2 {
+    font-size: 28px;
+    padding-inline: 24px;
+  }
+
+  .workflow__tools {
+    margin-top: 83px;
+  }
+
+  .workflow__tools h3 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,30 @@
+.access {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.access h2 {
+  font-size: 36px;
+  letter-spacing: -0.4px;
+}
+
+.access__image {
+  margin: 116px auto 0;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .access {
+    padding-top: 183px;
+  }
+
+  .access h2 {
+    font-size: 28px;
+    padding-inline: 24px;
+  }
+
+  .access__image {
+    margin-top: 49px;
+    padding-inline: 24px;
+  }
+}

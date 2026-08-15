@@ -1,0 +1,27 @@
+.download {
+  padding: 160px 24px 152px;
+  text-align: center;
+}
+
+.download h2 {
+  font-size: 36px;
+  letter-spacing: -0.4px;
+}
+
+.download .btn-row {
+  margin-top: 46px;
+}
+
+@media (max-width: 767px) {
+  .download {
+    padding: 146px 24px 170px;
+  }
+
+  .download .btn-row {
+    margin-top: 41px;
+  }
+
+  .download h2 {
+    font-size: 28px;
+  }
+}
