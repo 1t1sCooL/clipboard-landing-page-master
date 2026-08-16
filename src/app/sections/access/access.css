@@ -1,15 +1,15 @@
 .access {
-  padding-top: 150px;
+  padding-top: 152px;
   text-align: center;
 }
 
 .access h2 {
   font-size: 36px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.55px;
 }
 
 .access__image {
-  margin: 116px auto 0;
+  margin: 108px auto 0;
   height: auto;
 }
 

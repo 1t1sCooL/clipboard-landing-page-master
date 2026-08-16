@@ -1,15 +1,15 @@
 .snippets {
-  padding-top: 142px;
+  padding-top: 154px;
   text-align: center;
 }
 
 .snippets h2 {
   font-size: 36px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.55px;
 }
 
 .snippets__split {
-  margin-top: 82px;
+  margin-top: 76px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
@@ -26,7 +26,7 @@
 
 .snippets__features {
   padding-left: 110px;
-  padding-top: 75px;
+  padding-top: 68px;
   max-width: 460px;
 }
 
