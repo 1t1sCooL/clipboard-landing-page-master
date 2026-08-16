@@ -5,11 +5,11 @@
 
 .workflow h2 {
   font-size: 36px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.55px;
 }
 
 .workflow__tools {
-  margin: 96px auto 0;
+  margin: 69px auto 0;
   max-width: 1110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,7 +37,7 @@
 }
 
 .workflow__brands {
-  margin: 130px auto 0;
+  margin: 157px auto 0;
   max-width: 1110px;
   display: flex;
   align-items: center;
