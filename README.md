@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Vercel](https://clipboard-landing-page-master.vercel.app/)
+- Solution URL: [Vercel](https://clipboard-landing-page-master-khaki.vercel.app/)
 - Live Site URL: [mmalabugin.ru/ClipboardLandingPage/](https://mmalabugin.ru/ClipboardLandingPage/)
 
 ## My process
