@@ -1,30 +1,30 @@
 .access {
-  padding-top: 152px;
+  padding-block-start: 9.5rem;
   text-align: center;
 }
 
 .access h2 {
-  font-size: 36px;
-  letter-spacing: -0.55px;
+  font-size: 2.25rem;
+  letter-spacing: -0.034375rem;
 }
 
 .access__image {
-  margin: 108px auto 0;
+  margin: 6.75rem auto 0;
   height: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
   .access {
-    padding-top: 183px;
+    padding-block-start: 11.4375rem;
   }
 
   .access h2 {
-    font-size: 28px;
-    padding-inline: 24px;
+    font-size: 1.75rem;
+    padding-inline: 1.5rem;
   }
 
   .access__image {
-    margin-top: 49px;
-    padding-inline: 24px;
+    margin-block-start: 3.0625rem;
+    padding-inline: 1.5rem;
   }
 }

@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 
 interface SocialLink {
-  icon: string;
+  key: string;
   label: string;
 }
 
@@ -28,9 +28,9 @@ export class Footer {
   ];
 
   readonly socials: SocialLink[] = [
-    { icon: 'images/icon-facebook.svg', label: 'Facebook' },
-    { icon: 'images/icon-twitter.svg', label: 'Twitter' },
-    { icon: 'images/icon-instagram.svg', label: 'Instagram' },
+    { key: 'facebook', label: 'Facebook' },
+    { key: 'twitter', label: 'Twitter' },
+    { key: 'instagram', label: 'Instagram' },
   ];
 
   constructor() {

@@ -1,79 +1,79 @@
 .workflow {
-  padding-top: 63px;
+  padding-block-start: 3.9375rem;
   text-align: center;
 }
 
 .workflow h2 {
-  font-size: 36px;
-  letter-spacing: -0.55px;
+  font-size: 2.25rem;
+  letter-spacing: -0.034375rem;
 }
 
 .workflow__tools {
-  margin: 69px auto 0;
-  max-width: 1110px;
+  margin: 4.3125rem auto 0;
+  max-width: 69.375rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  padding-inline: 24px;
+  gap: 1.875rem;
+  padding-inline: 1.5rem;
 }
 
 .workflow__icon {
   margin: 0 auto;
-  height: 40px;
+  height: 2.5rem;
   width: auto;
 }
 
 .workflow__tools h3 {
-  margin-top: 40px;
-  font-size: 24px;
+  margin-block-start: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .workflow__tools p {
-  margin: 18px auto 0;
-  max-width: 350px;
-  font-size: 16px;
+  margin: 1.125rem auto 0;
+  max-width: 21.875rem;
+  font-size: 1rem;
   line-height: 1.85;
   color: var(--Gray-500);
 }
 
 .workflow__brands {
-  margin: 157px auto 0;
-  max-width: 1110px;
+  margin: 9.8125rem auto 0;
+  max-width: 69.375rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 24px;
+  padding-inline: 1.5rem;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
   .workflow__tools {
     grid-template-columns: 1fr;
-    gap: 41px;
+    gap: 2.5625rem;
   }
 
   .workflow__brands {
     flex-direction: column;
-    gap: 60px;
-    margin-top: 130px;
+    gap: 3.75rem;
+    margin-block-start: 8.125rem;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
   .workflow {
-    padding-top: 120px;
+    padding-block-start: 7.5rem;
   }
 
   .workflow h2 {
-    font-size: 28px;
-    padding-inline: 24px;
+    font-size: 1.75rem;
+    padding-inline: 1.5rem;
   }
 
   .workflow__tools {
-    margin-top: 83px;
+    margin-block-start: 5.1875rem;
   }
 
   .workflow__tools h3 {
-    margin-top: 40px;
-    font-size: 24px;
+    margin-block-start: 2.5rem;
+    font-size: 1.5rem;
   }
 }
