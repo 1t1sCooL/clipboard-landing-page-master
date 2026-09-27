@@ -1,15 +1,15 @@
 .snippets {
-  padding-top: 154px;
+  padding-block-start: 9.625rem;
   text-align: center;
 }
 
 .snippets h2 {
-  font-size: 36px;
-  letter-spacing: -0.55px;
+  font-size: 2.25rem;
+  letter-spacing: -0.034375rem;
 }
 
 .snippets__split {
-  margin-top: 76px;
+  margin-block-start: 4.75rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
@@ -19,78 +19,78 @@
 
 .snippets__image {
   justify-self: end;
-  margin-left: -105px;
-  width: 752px;
+  margin-inline-start: -6.5625rem;
+  width: 47rem;
   max-width: none;
 }
 
 .snippets__features {
-  padding-left: 110px;
-  padding-top: 68px;
-  max-width: 460px;
+  padding-inline-start: 6.875rem;
+  padding-block-start: 4.25rem;
+  max-width: 28.75rem;
 }
 
 .snippets__features li + li {
-  margin-top: 54px;
+  margin-block-start: 3.375rem;
 }
 
 .snippets__features h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .snippets__features p {
-  margin-top: 10px;
-  font-size: 16px;
+  margin-block-start: 0.625rem;
+  font-size: 1rem;
   line-height: 1.9;
   color: var(--Gray-500);
-  max-width: 350px;
+  max-width: 21.875rem;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
   .snippets__split {
     grid-template-columns: 1fr;
     text-align: center;
-    margin-top: 64px;
+    margin-block-start: 4rem;
   }
 
   .snippets__image {
     justify-self: center;
-    margin-left: 0;
+    margin-inline-start: 0;
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem;
     height: auto;
-    padding-inline: 32px;
+    padding-inline: 2rem;
   }
 
   .snippets__features {
-    padding: 56px 24px 0;
+    padding: 3.5rem 1.5rem 0;
     max-width: none;
     margin-inline: auto;
   }
 
   .snippets__features li + li {
-    margin-top: 38px;
+    margin-block-start: 2.375rem;
   }
 
   .snippets__features h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .snippets__features p {
-    max-width: 350px;
+    max-width: 21.875rem;
     margin-inline: auto;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
   .snippets {
-    padding-top: 160px;
+    padding-block-start: 10rem;
   }
 
   .snippets h2 {
-    font-size: 28px;
-    padding-inline: 24px;
+    font-size: 1.75rem;
+    padding-inline: 1.5rem;
   }
 
 }

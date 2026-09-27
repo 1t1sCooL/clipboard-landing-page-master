@@ -22,7 +22,7 @@
       @for (s of socials; track s.label) {
         <li>
           <a href="#" [attr.aria-label]="s.label">
-            <span class="footer__icon" [style.--icon]="'url(' + s.icon + ')'"></span>
+            <span class="footer__icon footer__icon--{{ s.key }}"></span>
           </a>
         </li>
       }
